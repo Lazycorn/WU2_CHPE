@@ -1,0 +1,80 @@
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(228, 231, 235)
+}
+
+.menupic {
+  width: 310px;
+  height: 49px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  background-color: rgb(228, 231, 235);
+
+
+}
+
+#menu li {
+  display: inline;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+}
+
+.logo ul {
+  text-align: center;
+  display: inline-block;
+}
+
+#menu a  {
+  display:inline-block;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 30px;
+}
+
+ul {
+  padding-right: 40px;
+}
+
+a a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+  color: #3d525b;
+}
+
+#menu a:hover{
+  background-color: rgb(186, 186, 186);
+  transition: all .5s cubic-bezier(.15,0,.3,.8);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.15, 0, 0.3, 0.8);
+    transition-delay: initial
+}
+
+a {
+  color: #3d525b;
+}
+
+.text p {
+  float: left;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 86%;
+}
+
+.topborder {
+  height: 84px;
+}
