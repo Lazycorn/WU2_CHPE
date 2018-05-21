@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(228, 231, 235)
+}
+
+.topborder {
+  padding-top: 20px;
+}
+
+.menuwrapper {
+  height: 84px;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  background-color: rgb(228, 231, 235);
+}
+
+nav ul {
+  padding-right: 40px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+nav ul li a  {
+  display:inline-block;
+  margin-right: 75px;
+  margin-left: 75px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+a, a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+  color: #3d525b;
+}
+
+nav a:hover{
+  background-color: rgb(203, 203, 203);
+  transition: all .5s cubic-bezier(.15,0,.3,.8);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.15, 0, 0.3, 0.8);
+    transition-delay: initial
+}
+
+.menupic {
+  width: 245px;
+  height: 37px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo ul {
+  text-align: center;
+  display: inline-block;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 86%;
+}
+
+/*----------FEATIMG---------*/
+
+.firstimg {
+  float: left;
+}
+
+.firstimg img {
+  width: 100%;
+  border-style: solid;
+
+}
+
+
+/*-------TEXT-------*/
+
+.home-article {
+  width: 80%;
+  margin: auto;
+  padding-top: 3em;
+  padding-left: 10em;
+}
+
+.text {
+  float: left;
+  position: relative;
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.text h1 {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: 'Cormorant', serif;
+  /*color: rgb(96, 59, 76)*/
+  /*color: rgb(51, 16, 32);*/
+  color: rgb(70, 57, 6);
+}
+
+.text p {
+  margin-top: 2em;
+  margin-left: 6em;
+  font-family: 'Cormorant', serif;
+}
+
+/*-------RECPOSTS-------*/
+
+.recposts {
+  display:block;
+  padding: 2em;
+}
+
+.recpost1 img {
+  width: 30%;
+}
