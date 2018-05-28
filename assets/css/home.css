@@ -81,20 +81,46 @@ nav a:hover{
 
 /*----------FEATIMG---------*/
 
-.firstimg {
+.imgarticle {
   float: left;
 }
 
-.firstimg img {
-  width: 100%;
+.imgarticle img {
+  width: 354px;
+  height: 559px;
   border-style: solid;
-
+  float: left;
 }
 
+/*------BUTTONS------*/
+
+#buttons {
+  float: left;
+  position: absolute;
+  margin-top: 280px;
+  font-size: 2rem;
+}
+
+.right {
+  margin-left: 262px;
+  color: rgb(199, 199, 199);
+  background-color: transparent;
+  border: none;
+  padding: 6px 13px;
+  text-decoration: none;
+}
+
+.left {
+  color: rgb(199, 199, 199);
+  background-color: transparent;
+  border: none;
+  padding: 6px 13px;
+  text-decoration: none;
+}
 
 /*-------TEXT-------*/
 
-.home-article {
+.gay {
   width: 80%;
   margin: auto;
   padding-top: 3em;
@@ -132,4 +158,43 @@ nav a:hover{
 
 .recpost1 img {
   width: 30%;
+}
+
+/*-------FOOTER/COPYRIGHT------*/
+
+footer {
+  width: 100%;
+  margin: 3rem;
+  display: block;
+  background-color: rgb(184, 184, 184);
+}
+
+/*------RESPONSIVE--------*/
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    display: block !important;
+  }
+  .gay {
+    width: 100%;
+    padding-left: 0;
+  }
+  .menuwrapper {
+    height: 150px;
+  }
+  .imgarticle {
+    margin-left: 24px;
+  }
+  .left {
+    margin-left: 22px;
+  }
+  .text {
+    width: 90%;
+  }
+  .text p {
+    margin-left: 4em;
+  }
+  nav ul {
+    padding: 0px;
+  }
 }

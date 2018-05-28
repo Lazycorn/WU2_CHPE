@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300|Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
@@ -18,7 +20,7 @@
    <div class="menuwrapper">
     <nav>
       <ul>
-        <li><a href="#">Start</a></li>
+        <li><a href="http://localhost/WU2_CHPE/mall_blogg.php">Start</a></li>
         <li><a href="#">Browse</a></li>
         <li class="logo"> <img class="menupic" src="assets/img/menupic1.png"> </li>
         <li><a href="#">Support</a></li>
@@ -27,31 +29,63 @@
     </nav>
   </div>
 
-  <article class="home-article">
-    <div class="firstimg">
-      <img src="assets/img/flowers.jpg">
-    </div>
+  <div class="gay">
+    <div id="buttons">
+      <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="right" onclick="plusDivs(+1)">&#10095;</button>
+     </div>
+
+  <article class="imgarticle">
+    <img src="assets/img/flowers.jpg">
     <div class="text">
-      <h1>Featured post of the day</h1>
+      <h1>Featured post of the day 1</h1>
       <p>Lorem ipsum dolor sit amet, stet adhuc idque an eam. Legere albucius appetere eu has. Minimum ponderum assentior eu vim. Tale populo complectitur vix ad. Sale falli reprehendunt quo id, odio mundi ut sit.
   Cu nonumy convenire vim, mei id rebum dicunt eruditi. Quot liber iusto per ut. Ad doming patrioque vix, vim ferri falli ne. Et autem nostrud partiendo nam, in facete viderer legendos ius. Usu ex illum euripidis delicatissimi, sed ad vero iisque malorum.
   Quando tibique vel et, pro affert euripidis abhorreant ei. Ei denique dissentiunt contentiones sed. Amet putent mei ea, at est legere adolescens. Adhuc utamur ut sea, ex vix commodo denique.
   In pro delenit maiestatis. Ad est omnium eloquentiam, quidam regione epicuri mel ad, eos doming admodum no.
+     </div>
+    </article>
+
+    <article class="imgarticle">
+    <img src="assets/img/flowers2.jpg">
+    <div class="text">
+      <h1>Featured post of the day 2</h1>
+      <p>Lorem ipsum 22222222 dolor sit amet, stet adhuc idque an eam. Legere albucius appetere eu has. Minimum ponderum assentior eu vim. Tale populo complectitur vix ad. Sale falli reprehendunt quo id, odio mundi ut sit.
+  Cu nonumy convenire vim, mei id rebum dicunt eruditi. Quot liber iusto per ut. Ad doming patrioque vix, vim ferri falli ne. Et autem nostrud partiendo nam, in facete viderer legendos ius. Usu ex illum euripidis delicatissimi, sed ad vero iisque malorum.
+  Quando tibique vel et, pro affert euripidis abhorreant ei. Ei denique dissentiunt contentiones sed. Amet putent mei ea, at est legere adolescens. Adhuc utamur ut sea, ex vix commodo denique.
+  In pro delenit maiestatis. Ad est omnium eloquentiam, quidam regione epicuri mel ad, eos doming admodum no.
+     </div>
+    </article>
+
+  <article class="imgarticle">
+  <img src="assets/img/flowers3.jpg">
+  <div class="text">
+    <h1>Featured post of the day 3</h1>
+    <p>Lorem ipsum 333333333 dolor sit amet, stet adhuc idque an eam. Legere albucius appetere eu has. Minimum ponderum assentior eu vim. Tale populo complectitur vix ad. Sale falli reprehendunt quo id, odio mundi ut sit.
+Cu nonumy convenire vim, mei id rebum dicunt eruditi. Quot liber iusto per ut. Ad doming patrioque vix, vim ferri falli ne. Et autem nostrud partiendo nam, in facete viderer legendos ius. Usu ex illum euripidis delicatissimi, sed ad vero iisque malorum.
+Quando tibique vel et, pro affert euripidis abhorreant ei. Ei denique dissentiunt contentiones sed. Amet putent mei ea, at est legere adolescens. Adhuc utamur ut sea, ex vix commodo denique.
+In pro delenit maiestatis. Ad est omnium eloquentiam, quidam regione epicuri mel ad, eos doming admodum no.
     </div>
   </article>
+</div>
 
-  <article class="recposts">
+  <!--<article class="recposts">
     <div class="recpost1">
       <img src="assets/img/recpost1.jpg">
     </div>
   </article>
 
-    <footer>
 
-    </footer>
+  <footer>
+    <div class="footer">
+      <p>hej</p>
+    </div>
+
+  </footer>-->
 
 
   <!-- Ifall jag vill ha sticky navbar <script src="assets/js/js.js"></script> -->
+  <script src="assets/js/slider.js"></script>
 
   </body>
 </html>
